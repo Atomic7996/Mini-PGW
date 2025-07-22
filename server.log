@@ -1,0 +1,29 @@
+[2025-07-22 05:27:49.636] [server_logger] [info] Server starting: UDP 127.0.0.1:5050  HTTP port 8080  CDR file cdr.log  debug=true
+[2025-07-22 05:27:49.636] [server_logger] [debug] Config: timeout=60s, graceful_rate=5 sess/sec
+[2025-07-22 05:27:49.636] [server_logger] [debug] Start UDP
+[2025-07-22 05:27:49.636] [server_logger] [debug] Start HTTP
+[2025-07-22 05:27:49.636] [server_logger] [info] UDP is listening on 127.0.0.1:5050
+[2025-07-22 05:27:49.636] [server_logger] [debug] Starting cleanup thread
+[2025-07-22 05:28:34.068] [server_logger] [debug] Received 8 bytes from 127.0.0.1:41190
+[2025-07-22 05:28:34.068] [server_logger] [debug] Decoded IMSI 000000000000001
+[2025-07-22 05:28:34.068] [server_logger] [info] Subscriber 000000000000001 rejected
+[2025-07-22 05:28:41.415] [server_logger] [debug] Received 8 bytes from 127.0.0.1:54692
+[2025-07-22 05:28:41.415] [server_logger] [debug] Decoded IMSI 000000000000002
+[2025-07-22 05:28:41.415] [server_logger] [info] Session created for IMSI 000000000000002
+[2025-07-22 05:28:44.014] [server_logger] [debug] Received 8 bytes from 127.0.0.1:32860
+[2025-07-22 05:28:44.014] [server_logger] [debug] Decoded IMSI 000000000000003
+[2025-07-22 05:28:44.014] [server_logger] [info] Session created for IMSI 000000000000003
+[2025-07-22 05:28:47.347] [server_logger] [debug] Received 8 bytes from 127.0.0.1:39472
+[2025-07-22 05:28:47.347] [server_logger] [debug] Decoded IMSI 000000000000005
+[2025-07-22 05:28:47.347] [server_logger] [info] Session created for IMSI 000000000000005
+[2025-07-22 05:29:19.085] [server_logger] [debug] HTTP /check_subscriber imsi=000000000000001
+[2025-07-22 05:29:22.435] [server_logger] [debug] HTTP /check_subscriber imsi=000000000000005
+[2025-07-22 05:29:25.826] [server_logger] [debug] HTTP /check_subscriber imsi=000000000000002
+[2025-07-22 05:29:42.809] [server_logger] [info] Session deleted for IMSI 000000000000002
+[2025-07-22 05:29:46.320] [server_logger] [info] Session deleted for IMSI 000000000000003
+[2025-07-22 05:29:46.864] [server_logger] [info] HTTP /stop called
+[2025-07-22 05:29:48.320] [server_logger] [debug] UDP thread shutted down
+[2025-07-22 05:29:48.329] [server_logger] [info] Session deleted for IMSI 000000000000005
+[2025-07-22 05:29:48.329] [server_logger] [info] Graceful shutdown with 5 deleted sessions per sec
+[2025-07-22 05:29:48.329] [server_logger] [info] Graceful shutdown completed
+[2025-07-22 05:29:48.329] [server_logger] [info] Exit from server

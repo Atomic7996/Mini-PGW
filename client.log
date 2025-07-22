@@ -1,0 +1,7 @@
+[2025-07-22 05:28:47.347] [client_logger] [info] Client starting, IMSI=000000000000005, config=../client_config.json, debug=false
+[2025-07-22 05:28:47.347] [client_logger] [debug] Loaded client config: server_ip=127.0.0.1, server_port=5050, log_file=client.log
+[2025-07-22 05:28:47.347] [client_logger] [debug] IMSI '000000000000005' converted to BCD: [0,0,0,0,0,0,0,95]
+[2025-07-22 05:28:47.347] [client_logger] [debug] UDP socket created (fd=4)
+[2025-07-22 05:28:47.347] [client_logger] [debug] Set server address: 127.0.0.1:5050
+[2025-07-22 05:28:47.347] [client_logger] [info] Sent 8 bytes to 127.0.0.1:5050
+[2025-07-22 05:28:47.347] [client_logger] [info] Received response (7 bytes): 'created'

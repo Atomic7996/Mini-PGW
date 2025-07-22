@@ -1,0 +1,16 @@
+{
+  "udp_ip": "127.0.0.1",
+  "udp_port": 5050,
+  "session_timeout_sec": 60,
+  "cdr_file": "cdr.log",
+  "http_port": 8080,
+  "graceful_shutdown_rate": 5,
+  "log_file": "server.log",
+  "log_level": "DEBUG",
+  "blacklist": [
+    "001010123456789",
+    "001010000000001",
+    "000000000000001",
+    "111111111111111"
+  ]
+}
